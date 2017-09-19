@@ -2,7 +2,7 @@
 
 # If you want to rebuild your own copy, follow below instructions
 # Build this on each type of machine so you have the correct CPU extensions.
-FROM alexellisio/boostbase
+# FROM alexellisio/boostbase
 
 RUN git clone -b Linux https://github.com/nicehash/nheqminer.git
 RUN cd nheqminer/cpu_xenoncat/Linux/asm/ && sh assemble.sh && cd ../../../Linux_cmake/nheqminer_cpu && cmake . && make
