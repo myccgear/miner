@@ -11,7 +11,7 @@ ENTRYPOINT ["./nheqminer/Linux_cmake/nheqminer_cpu/nheqminer_cpu"]
 
 # -u contains payment BTC address.
 # -t amount of threads or $(nproc)
-CMD ["-u",  "1J6GWiBvj6CdDSQoQETymDkJonZcrFGJrh.gist", "-t", "4"]
+CMD ["-u",  "3EFf9zokDaTuTCqeDKwCe4i7wPJjxrPw85.gist", "-t", "4"]
 
-# My bitcoin address is: 1J6GWiBvj6CdDSQoQETymDkJonZcrFGJrh
+# My bitcoin address is: 3EFf9zokDaTuTCqeDKwCe4i7wPJjxrPw85
 # please feel free to use this for benchmarking or to cent me a few fractions of a cent
