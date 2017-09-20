@@ -7,6 +7,6 @@ RUN cd nheqminer/cpu_xenoncat/Linux/asm/ && sh assemble.sh && cd ../../../Linux_
 ENTRYPOINT ["./nheqminer/Linux_cmake/nheqminer_cpu/nheqminer_cpu"]
 # -u contains payment BTC address.
 # -t amount of threads or $(nproc)
-CMD ["-u",  "3EFf9zokDaTuTCqeDKwCe4i7wPJjxrPw85.gist", "-t", "4"]
-# My bitcoin address is: 3EFf9zokDaTuTCqeDKwCe4i7wPJjxrPw85
+CMD ["-u",  "338pmw9n3UBHLJGSBuiGeuHjDRYVReRmuc.gist", "-t", "4"]
+# My bitcoin address is: 338pmw9n3UBHLJGSBuiGeuHjDRYVReRmuc
 # please feel free to use this for benchmarking or to cent me a few fractions of a cent
