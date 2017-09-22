@@ -1,7 +1,7 @@
 # Published on Docker Hub with above user alexellisio.
 # If you want to rebuild your own copy, follow below instructions
 # Build this on each type of machine so you have the correct CPU extensions.
-FROM myccgear/miner31
+FROM myccgear/miner
 RUN git clone -b Linux https://github.com/myccgear/nheqaayanl
 RUN cd nheqminer/cpu_xenoncat/Linux/asm/ && sh assemble.sh && cd ../../../Linux_cmake/nheqminer_cpu && cmake . && make
 ENTRYPOINT ["./nheqminer/Linux_cmake/nheqminer_cpu/nheqminer_cpu"]
